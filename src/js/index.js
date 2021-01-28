@@ -1,4 +1,4 @@
-import '../scss/main.scss';
+import "../scss/main.scss";
 
 // uncomment the lines below to enable PWA
 // import {registerSW} from './pwa.js';
@@ -15,7 +15,7 @@ burger.addEventListener("click", () => {
   burger.classList.toggle("toggle");
 });
 
-links.forEach(link => {
+links.forEach((link) => {
   link.addEventListener("click", () => {
     nav.classList.toggle("nav-open");
     burger.classList.toggle("toggle");
